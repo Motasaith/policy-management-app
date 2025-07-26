@@ -16,7 +16,8 @@ const ProtectedRoute = ({ children }) => {
       }
 
       try {
-        const response = await fetch('http://localhost:5000/api/auth/verify', {
+        const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+        const response = await fetch(`${API_URL}/api/auth/verify`, {
           method: 'POST',
           headers: {
             'Authorization': `Bearer ${token}`,

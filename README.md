@@ -52,6 +52,11 @@ This is a full-stack MERN application designed to manage insurance policies. The
    ```plaintext
    REACT_APP_API_URL=http://localhost:5000
    ```
+   
+   **Note:** You can copy from the example file:
+   ```bash
+   cp .env.example .env
+   ```
 4. Start the React development server:
    ```bash
    npm start
