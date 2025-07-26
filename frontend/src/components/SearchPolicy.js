@@ -301,9 +301,9 @@ const SearchPolicy = () => {
               <ul className="space-y-2">
                 <li><a href="#hero" className="text-emerald-100 hover:text-white transition-colors duration-200">Home</a></li>
                 <li><a href="#policy-search" className="text-emerald-100 hover:text-white transition-colors duration-200">Search Policy</a></li>
-                <li><a href="#" className="text-emerald-100 hover:text-white transition-colors duration-200">About Us</a></li>
-                <li><a href="#" className="text-emerald-100 hover:text-white transition-colors duration-200">Our Services</a></li>
-                <li><a href="#" className="text-emerald-100 hover:text-white transition-colors duration-200">Contact</a></li>
+                <li><button className="text-emerald-100 hover:text-white transition-colors duration-200 text-left">About Us</button></li>
+                <li><button className="text-emerald-100 hover:text-white transition-colors duration-200 text-left">Our Services</button></li>
+                <li><button className="text-emerald-100 hover:text-white transition-colors duration-200 text-left">Contact</button></li>
               </ul>
             </div>
 

@@ -42,7 +42,7 @@ const AdminForm = () => {
     setMessage('');
 
     try {
-      const result = await policyAPI.createPolicy(formData);
+      await policyAPI.createPolicy(formData);
       setMessage('Policy created successfully!');
       setMessageType('success');
       
