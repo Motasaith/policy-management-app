@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Azhar's SLIC Frontend
 
+Frontend application for Azhar's SLIC - State Life Insurance Corporation of Pakistan policy management system.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

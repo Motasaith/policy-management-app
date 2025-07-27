@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "azhars-slic-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,5 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-  "description": ""
+  "description": "Backend API for Azhar's SLIC - State Life Insurance Corporation policy management system"
 }

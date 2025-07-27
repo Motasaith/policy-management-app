@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { policyAPI } from '../services/api';
 import PolicyCard from './PolicyCard';
+import StateLifeLogo from './StateLifeLogo';
 
 const SearchPolicy = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -152,16 +153,14 @@ const SearchPolicy = () => {
         <div className="max-w-2xl mx-auto px-4">
           {/* Brand Section */}
           <div className="text-center mb-8">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-emerald-600 to-green-700 rounded-full shadow-lg mb-4">
-              <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10.5V11.5C14.8,12.4 14.4,13.2 13.7,13.7L12.4,14.8C12.1,15.1 11.9,15.1 11.6,14.8L10.3,13.7C9.6,13.2 9.2,12.4 9.2,11.5V10.5C9.2,8.6 10.6,7 12,7Z"/>
-              </svg>
+            <div className="inline-flex items-center justify-center mb-4">
+              <StateLifeLogo width={120} height={90} className="shadow-lg" />
             </div>
             <h2 className="text-4xl font-bold text-gray-800 mb-2">
-              SecureLife Insurance
+              Azhar's SLIC
             </h2>
             <p className="text-gray-600 text-lg">
-              Your trusted partner in life's journey
+              State Life Insurance Corporation of Pakistan
             </p>
           </div>
 
@@ -279,12 +278,8 @@ const SearchPolicy = () => {
             {/* Company Info */}
             <div className="md:col-span-2">
               <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-emerald-600 rounded-full flex items-center justify-center mr-3">
-                  <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10.5V11.5C14.8,12.4 14.4,13.2 13.7,13.7L12.4,14.8C12.1,15.1 11.9,15.1 11.6,14.8L10.3,13.7C9.6,13.2 9.2,12.4 9.2,11.5V10.5C9.2,8.6 10.6,7 12,7Z"/>
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold">SecureLife Insurance</h3>
+                <StateLifeLogo width={60} height={45} className="mr-3" />
+                <h3 className="text-2xl font-bold">Azhar's SLIC</h3>
               </div>
               <p className="text-emerald-100 leading-relaxed mb-4">
                 State Life Insurance Corporation of Pakistan - Your trusted partner in securing life's precious moments. 
@@ -340,7 +335,7 @@ const SearchPolicy = () => {
           {/* Bottom Bar */}
           <div className="border-t border-emerald-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-emerald-200 text-sm mb-4 md:mb-0">
-              © 2024 State Life Insurance Corporation of Pakistan. All rights reserved.
+              © 2024 Azhar's SLIC - State Life Insurance Corporation of Pakistan. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <button className="text-emerald-200 hover:text-white transition-colors duration-200" title="Twitter">

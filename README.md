@@ -1,6 +1,6 @@
-# Policy Management App
+# Azhar's SLIC - State Life Insurance Corporation
 
-This is a full-stack MERN application designed to manage insurance policies. The application supports searching for policies and adding new policies via an admin interface.
+This is a full-stack MERN application designed to manage State Life Insurance Corporation policies. The application supports searching for policies and adding new policies via an admin interface.
 
 ## Features
 

@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide provides step-by-step instructions for deploying the Policy Management App to Render (backend) and Vercel (frontend).
+This guide provides step-by-step instructions for deploying Azhar's SLIC - State Life Insurance Corporation policy management system to Render (backend) and Vercel (frontend).
 
 ## Backend Deployment (Render)
 
@@ -22,7 +22,7 @@ This guide provides step-by-step instructions for deploying the Policy Managemen
 3. Click "New" → "Web Service"
 4. Connect your GitHub repository
 5. Configure the service:
-   - **Name**: `policy-management-backend`
+   - **Name**: `azhars-slic-backend`
    - **Environment**: `Node`
    - **Build Command**: `npm install`
    - **Start Command**: `npm start`

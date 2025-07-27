@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import StateLifeLogo from './StateLifeLogo';
 
 const AdminSignin = () => {
   const [formData, setFormData] = useState({
@@ -60,13 +61,11 @@ const AdminSignin = () => {
       <div className="max-w-md w-full space-y-8">
         {/* Header */}
         <div className="text-center">
-          <div className="mx-auto h-16 w-16 bg-gradient-to-r from-emerald-600 to-green-700 rounded-full flex items-center justify-center mb-6">
-            <svg className="h-10 w-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10.5V11.5C14.8,12.4 14.4,13.2 13.7,13.7L12.4,14.8C12.1,15.1 11.9,15.1 11.6,14.8L10.3,13.7C9.6,13.2 9.2,12.4 9.2,11.5V10.5C9.2,8.6 10.6,7 12,7Z"/>
-            </svg>
+          <div className="mx-auto mb-6">
+            <StateLifeLogo width={100} height={75} className="shadow-lg" />
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2">Admin Sign In</h2>
-          <p className="text-gray-600">Access the Policy Management Dashboard</p>
+          <p className="text-gray-600">Access Azhar's SLIC Policy Management Dashboard</p>
         </div>
 
         {/* Sign In Form */}
@@ -176,7 +175,7 @@ const AdminSignin = () => {
           <div className="mt-6 p-4 bg-emerald-50 border border-emerald-200 rounded-lg">
             <h3 className="text-sm font-medium text-emerald-800 mb-2">Demo Credentials:</h3>
             <div className="text-sm text-emerald-700 space-y-1">
-              <p><strong>Email:</strong> admin@statelife.com.pk</p>
+              <p><strong>Email:</strong> azhar@slic.com.pk</p>
               <p><strong>Password:</strong> SecureAdmin123!</p>
             </div>
           </div>

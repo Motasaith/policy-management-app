@@ -1,4 +1,4 @@
-# 🎨 Modern Insurance UI Design Features
+# 🎨 Azhar's SLIC - Modern Insurance UI Design Features
 
 ## 🏠 **Homepage Design**
 ### Hero Section with Rotating Family Images
@@ -11,7 +11,7 @@
 
 ### Modern Search Interface
 - **Clean White Card**: Elevated search form with subtle shadows
-- **Brand Section**: Professional shield icon with "SecureLife Insurance" branding
+- **Brand Section**: State Life logo with "Azhar's SLIC" branding
 - **Intuitive Search**: Radio buttons for CNIC/Policy Number selection
 - **Responsive Design**: Perfect on mobile and desktop
 

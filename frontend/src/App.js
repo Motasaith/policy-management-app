@@ -7,6 +7,7 @@ import ContactUs from './components/ContactUs';
 import Services from './components/Services';
 import AdminSignin from './components/AdminSignin';
 import ProtectedRoute from './components/ProtectedRoute';
+import StateLifeLogo from './components/StateLifeLogo';
 
 // Custom hook to handle smooth scrolling
 const useScrollTo = () => {
@@ -39,13 +40,9 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Brand */}
           <Link to="/" className="flex items-center space-x-2 group" onClick={() => setIsMobileMenuOpen(false)}>
-            <div className="w-8 h-8 bg-gradient-to-r from-emerald-600 to-green-700 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10.5V11.5C14.8,12.4 14.4,13.2 13.7,13.7L12.4,14.8C12.1,15.1 11.9,15.1 11.6,14.8L10.3,13.7C9.6,13.2 9.2,12.4 9.2,11.5V10.5C9.2,8.6 10.6,7 12,7Z"/>
-              </svg>
-            </div>
+            <StateLifeLogo width={48} height={36} />
             <span className="text-xl font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent group-hover:from-emerald-700 group-hover:to-green-800 transition-all duration-200">
-              PolicyManager
+              Azhar's SLIC
             </span>
           </Link>
 
