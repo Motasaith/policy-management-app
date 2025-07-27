@@ -8,6 +8,7 @@ import Services from './components/Services';
 import AdminSignin from './components/AdminSignin';
 import ProtectedRoute from './components/ProtectedRoute';
 import StateLifeLogo from './components/StateLifeLogo';
+import LogoDebug from './components/LogoDebug';
 
 // Custom hook to handle smooth scrolling
 const useScrollTo = () => {
@@ -181,6 +182,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/debug-logo" element={<LogoDebug />} />
           </Routes>
         </main>
       </div>
